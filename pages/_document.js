@@ -17,6 +17,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <title>My page</title>
+          <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
           {this.props.styleTags}
         </Head>
         <body>
