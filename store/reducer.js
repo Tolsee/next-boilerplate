@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
 
-import postsReducer from "store/posts/reducer";
+import vacancyReducer from "store/vacancies/reducer";
 
 const reducers = {
-  posts: postsReducer
+  vacancies: vacancyReducer
 };
 
 export default combineReducers(reducers);

@@ -14,7 +14,7 @@ const H1 = styled.h1`
 
 type Props = {};
 
-class Home extends Component<Props> {
+class Contact extends Component<Props> {
   static getInitialProps({ store }) {
     // Get initial props for component
   }
@@ -26,7 +26,7 @@ class Home extends Component<Props> {
           <title>Enlivit</title>
         </Head>
         <NProgress />
-        <H1>Home</H1>
+        <H1>Contact</H1>
       </div>
     );
   }
@@ -37,5 +37,5 @@ const mapStateToProps = () => ({});
 const mapDispatchToProps = () => ({});
 
 export default withRedux(Store, mapStateToProps, mapDispatchToProps)(
-  withReduxSaga(Home)
+  withReduxSaga(Contact)
 );

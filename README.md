@@ -1,4 +1,4 @@
-# NEXT Static Site
+# NEXT Company website
 
 ## Run
 ### Development

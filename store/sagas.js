@@ -1,7 +1,7 @@
 import { all } from "redux-saga/effects";
 
-import postSagas from "store/posts/sagas";
+import vacancySagas from "store/vacancies/sagas";
 
 export default function* rootSaga(services = {}) {
-  yield all([postSagas()]);
+  yield all([vacancySagas()]);
 }
