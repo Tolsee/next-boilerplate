@@ -1,9 +1,12 @@
-# NEXT Boilerplate
-Lightweight Next boilerplate!
-## Background
-We had tough times working with Next to make it our beloved framework. We opened issues (https://github.com/zeit/next.js/issues/3131), make pull requests and discuss a lot in the slack channel of NextJs. Unfortunately some of our must have features was not supported at that time. So we started creating a boilerplate that had all the features we wanted on top of Next.
+# NEXT Static Site
 
-## Features
+## Run
+### Development
+`yarn dev`
+### Production
+`yarn start`
+
+## Libraries
 * **redux** for handling application state
 * **redux-saga** for handling async actions and side-effects
 * **next-routes** for handling dynamic routes
@@ -18,7 +21,5 @@ We had tough times working with Next to make it our beloved framework. We opened
 * **prettier** and **eslint** configured with **airbnb**'s styleguide for formating code
 * **husky** and **lint-staged** for autoformatting code before commit
 * **styled-components** allows you to write actual CSS code to style your components.
-
-this boilerplate also includes **flow** and **storybook** that you can easily remove them if you don't like.
-
-For more information please read the [docs](https://arefaslani.github.io/next-boilerplate)
+* **flow** static type checking/proptypes
+* **storybook** easily develop UI components without worrying about app
