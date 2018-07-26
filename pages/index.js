@@ -6,10 +6,16 @@ import withReduxSaga from "next-redux-saga";
 import Head from "next/head";
 import styled from "styled-components";
 import Store from "store";
-import NProgress from "components/NProgress";
 
-const H1 = styled.h1`
+import NProgress from "components/NProgress";
+import Page from "components/common/Page";
+
+const Heading = styled.h1`
   color: #458542;
+`;
+
+const Content = styled.div`
+  height: 100px;
 `;
 
 type Props = {};
@@ -26,7 +32,17 @@ class Home extends Component<Props> {
           <title>Enlivit</title>
         </Head>
         <NProgress />
-        <H1>Home</H1>
+        <Page>
+          <Heading>Home</Heading>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+          <Content>Hey hey</Content>
+        </Page>
       </div>
     );
   }
